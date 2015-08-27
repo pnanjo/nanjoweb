@@ -106,7 +106,7 @@ img.grayscale {
 }
 
 .header {
-  height: 80%;
+  height: 65%;
   background: #f68076 url('../images/web_bg_blue.jpg') repeat center center fixed;
 }
 
@@ -135,12 +135,16 @@ img.grayscale {
 }
 
 .blurb {
-  padding: 120px 0;
+  padding: 20px 0;
   background-color:#fefefe;
 }
 
 .blurb .panel {
   background-color:transparent;
+}
+
+.top-buffer {
+  margin-top:20px;
 }
 
 .bright {
@@ -188,6 +192,15 @@ img.grayscale {
 
 .gallery {
   padding: 50px 0;
+}
+
+.overlay {
+   background:transparent;
+   position:relative;
+   width:600px;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
 }
 
 .call-to-action {
