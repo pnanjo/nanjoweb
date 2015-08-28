@@ -91,7 +91,7 @@ img.grayscale {
 
     
 .header h1 {
-  font-size:80px;
+  font-size:65px;
   -webkit-text-stroke: 1px rgba(f,f,f,0.1);
   color:#431a6d;
   color:#fff;
@@ -201,6 +201,19 @@ img.grayscale {
    height:450px; /* your iframe height */
    top:450px;  /* your iframe height */
    margin-top:-450px;  /* your iframe height */
+}
+
+.embed-responsive video {;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
 }
 
 .call-to-action {
