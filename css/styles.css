@@ -172,6 +172,7 @@ img.grayscale {
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
+  color: #ffffff;
 }
 
 .featurette-item > i:hover {
